@@ -8,7 +8,7 @@ import silhouette_width
 
 
 nk = 3 #No of cluster
-image = Image.open('/test_image.jpeg') # you can give location of photo according to your own photo directry
+image = Image.open('/test_image.jpeg') # you can give location of photo according to your own photo location
 image.show(image)
 data_image = np.array(image)
 
